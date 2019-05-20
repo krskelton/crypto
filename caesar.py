@@ -14,13 +14,3 @@ def encrypt(text, rot):
             return_string += rotate_character(char, rot)
     #return the new string
     return return_string
-
-
-def main():
-    # main code (input and print statements)
-    message = input("Type your message: ")
-    rotation = int(input("How much should each letter be rotated: "))
-    print(encrypt(message, rotation))
-
-if __name__ == "__main__":
-    main()
