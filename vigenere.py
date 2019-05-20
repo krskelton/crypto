@@ -22,13 +22,3 @@ def encrypt(text, key):
             return_string += rotate_character(char, rotation)        
     #return the new string
     return return_string
-
-
-def main():
-    # main code (input and print statements)
-    message = input("Type your message: ")
-    encrypt_key = input("Encryption key: ")
-    print(encrypt(message, encrypt_key))
-
-if __name__ == "__main__":
-    main()
